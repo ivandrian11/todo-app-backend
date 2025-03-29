@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Menetapkan target versi ECMAScript
+    "module": "commonjs", // Menggunakan sistem modul Node.js
+    "outDir": "./dist", // Direktori output untuk file JavaScript yang dikompilasi
+    "rootDir": "./src", // Direktori sumber file TypeScript
+    "esModuleInterop": true // Memungkinkan impor modul ES6 ke dalam sistem CommonJS
+  },
+  "include": ["src"]
+}
